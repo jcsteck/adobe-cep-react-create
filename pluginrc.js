@@ -4,13 +4,13 @@ const srcFolder = path.join(root, "src")
 const destFolder = path.join(root, "dist")
 const certPath = path.join(destFolder, "cert.p12")
 module.exports = {
-    extensionBundleId: 'com.oneSteck.demo',
+    extensionBundleId: 'com.onesteck.demo',
     extensionBundleName: 'Juans React Extension',
     extensionBundleVersion: '1.0.1',
     cepVersion: '7.0',
     panelName: 'Juans React Ext demo',
     width: '400',
-    height: '600',
+    height: '400',
     root: root,
     sourceFolder: srcFolder,
     destinationFolder: destFolder,
@@ -23,7 +23,7 @@ module.exports = {
             country: 'US',
             province: 'VA',
             org: 'org',
-            name: 'name',
+            name: 'teste',
             password: 'password',
             locality: 'locality',
             orgUnit: 'orgUnit',
